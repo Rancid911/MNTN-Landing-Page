@@ -1,0 +1,38 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display:wght@400;500;600;700;900&display=swap");
+
+/* BASE */
+body {
+  color: white;
+  font-family: gilroy;
+  background-color: #0b1d26;
+  background-image: url(../img/bg/bg.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.row {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.container-wide {
+  margin: 0 auto;
+  width: 1790px;
+  padding: 0 15px;
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 64px;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+}
