@@ -36,3 +36,41 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav li + li {
+  margin-left: 40px;
+}
+
+.nav a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s ease-in;
+}
+
+.nav a:hover {
+  color: #fbd784;
+  fot-weight: bold;
+  font-size: 18px;
+}
+
+.account {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+.account:hover {
+  color: #fbd784;
+}
+
+.nav-wrapper {
+  margin-bottom: 198px;
+}
