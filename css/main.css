@@ -177,10 +177,24 @@ body {
 /* ARTICLE */
 
 .article {
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.article:nth-child(even) {
+
+  flex-direction: row-reverse;
+
+}
+
+.article-img-2 {
+  margin-right: 114px;
+
+}
+
+
 
 .article-text {
   position: relative;
@@ -188,6 +202,31 @@ body {
   padding-right: 150px;
 
 
+}
+
+.article-text-2 {
+
+  position: relative;
+  padding-left: 150px;
+}
+
+.article-text-2::before {
+  position: absolute;
+  left: 0;
+  top: 0%;
+
+  transform: translateY(-32%);
+  display: block;
+  content: attr(data-number);
+  width: 240px;
+  height: 240px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 1;
+  color: #FFFFFF;
+  opacity: 0.1;
 }
 
 .article-text::before {
